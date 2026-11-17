@@ -133,7 +133,7 @@ button {
 }
 
 .quote{
-    width: 680px;
+    width: 690px;
     height: auto;
     justify-content: center;
     align-self: center;
@@ -144,7 +144,8 @@ button {
 
 .attribution{
     align-self: flex-end;
-    font-style: italic;
-    font-weight: 100;
+    font-size: 24px;
+    font-weight: 600;
+    width: 450px;
     
 }
