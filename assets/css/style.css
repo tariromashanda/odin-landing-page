@@ -15,26 +15,38 @@
     font-display: swap;
 }
 
+html,body{
+  margin:0;
+  padding:0;
+}
+
+
 body {
     font-family: 'MyRoboto', sans-serif;
     font-weight: 400;
 }
 
-.heading-one {
-    font: weight 700p ;
+.title {
+    font-weight: 700;
 }
 
 .header {
     background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    padding:20px;
+    border:0;
+    margin: 0 auto;
+
 
 }
 
 .right-links {
     display: flex;
-    flex-direction: column;
+    gap:20px
+    
 }
 
 .title {
