@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'MyRobotoVariable';
+    src:url('./assets/fonts/Roboto-VariableFont_wdth\,wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+
+}
+
+@font-face { 
+    font-family: 'MyRobotoVariable';
+    src: url('./assets/fonts/Roboto-Italic-VariableFont_wdth\,wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+body {
+    font-family: 'MyRoboto', sans-serif;
+    font-weight: 400;
+}
+
+.heading-one {
+    font: weight 700p ;
+}
+
+.header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.right-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+  color: #F9FAF8;
+  text-decoration: none;
+  font-size: 16px;
+}
