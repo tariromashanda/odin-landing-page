@@ -43,8 +43,6 @@ body {
     padding-left: 300px;
     padding-right: 300px;
     
-   
-    
 }
 
 .right-links {
@@ -85,7 +83,6 @@ a {
     justify-content: space-between;
     background-color: #1F2937;
     gap: 20px;
-    
 
   
 }
@@ -134,9 +131,9 @@ a {
     justify-content: center;
     align-items: center;
     padding:30px;
-    margin-bottom: 70px;
-    
-    
+    margin-top: 20px;
+    margin-bottom: 110px;
+     
     
 }
 
@@ -162,8 +159,10 @@ button {
 .section-three{
     background: #E5E7EB;
     display: flex;
-    flex-direction: column;
-    padding:100px
+    justify-content: center;
+    align-content: center;
+    padding:100px;
+   
    
 }
 
@@ -171,18 +170,23 @@ button {
     width: 690px;
     height: auto;
     justify-content: center;
-    align-self: center;
     font-size: 30px;
     font-style: italic;
     font-weight: 100;
+    margin-bottom: 10px;
     }
 
 .attribution{
     align-self: flex-end;
     font-size: 24px;
     font-weight: 600;
-    width: 450px;
     
+}
+
+.quote-box{
+    display: flex;
+    flex-direction: column;
+
 }
 
 .card-container {
