@@ -110,7 +110,8 @@ a {
 .img-card {
     width: 150px;
     height: 150px;
-    border-radius: 8px;
+    border-radius: 15px;
+    border: 5px solid #3498db
 
 }
 
@@ -144,14 +145,16 @@ a {
 
 }
 
-.button-one {
+.button-one, .button-two {
     width: 100px ;
+    padding: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
 button {
     border-radius: 4px;
     border:none;
-    padding: 5px;
     background: #3882F6;
     color:#F9FAF8;
 }
@@ -202,7 +205,46 @@ button {
 }
 
 .card{
-    max-width: 150px;
+    max-width: 155px;
     justify-items: center;
     align-items: center;
+    
+}
+
+.blue-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #3882F6;
+    border-radius: 12px;
+    padding:50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    gap :150px;
+
+}
+
+.section-four{
+    display: flex;
+    flex: 1;
+    justify-content: center ;
+    align-items: center;
+    padding:50px;
+    margin:50px;
+   
+}
+
+.button-two {
+     border: 2px solid #E5E7EB;
+     margin: 0;
+     padding: 0;
+     height:30px;
+   
+}
+
+.heading-three {
+    font-size: 20px;
+    font-weight: 650;
+    color:#F9FAF8;
+    margin-bottom: 3px;
 }
